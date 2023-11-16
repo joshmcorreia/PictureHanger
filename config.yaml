@@ -1,0 +1,8 @@
+wall_width: 1.302
+wall_offset: 1.861
+
+num_pictures: 3
+frame_width: 0.433
+height_from_nail_to_top_of_picture: 0.01
+desired_top_of_picture_height: 1.786
+distance_between_frames: 0.03

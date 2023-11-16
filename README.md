@@ -94,6 +94,16 @@ Example config setting:
 num_pictures: 2
 ```
 
+### `frame_width`
+```
+|   <-->         |
+|   XXXX  XXXX   |
+|   XXXX  XXXX   |
+|   XXXX  XXXX   |
+|                |
+```
+The width of each frame.
+
 ### `height_from_nail_to_top_of_picture`
 This is the height from the nail to the top of the picture.
 
