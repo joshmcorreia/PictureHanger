@@ -36,7 +36,7 @@ class PictureHanger:
 
 	def calculate_locations(self) -> None:
 		height = self.calculate_height()
-		outer_width = (self.wall_width - (self.frame_width * self.num_pictures) + ((self.num_pictures - 1) * self.distance_between_frames))/2
+		outer_width = (self.wall_width - ((self.frame_width * self.num_pictures) + ((self.num_pictures - 1) * self.distance_between_frames)))/2
 
 		if outer_width < 0:
 			absolute_outer_width = abs(outer_width)
