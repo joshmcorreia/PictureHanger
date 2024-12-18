@@ -1,6 +1,5 @@
-wall_width: 1.302
+wall_width: 2.302
 wall_offset: 1.861
-
 num_pictures: 3
 frame_width: 0.433
 height_from_nail_to_top_of_picture: 0.01

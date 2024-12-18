@@ -1,30 +1,8 @@
 # PictureHanger
 
-This script helps calculate where on my wall to hang pictures.
+This program helps calculate where to hang pictures on my walls.
 
-All measurements are assumed to be in meters. This tool is created specifically for laser measures because you can get the most precise measurements.
-
----
-
-# Environment Setup
-
-## Setting up the virtual environment
-Note: This only needs to be run the very first time you download the repo.
-```
-python3 -m venv ./virtual_environment
-source ./virtual_environment/bin/activate
-pip3 install -r ./requirements.txt
-```
-
-## Re-attaching to the virtual environment:
-```
-source ./virtual_environment/bin/activate
-```
-
-## Exiting the virtual environment
-```
-deactivate
-```
+All measurements are assumed to be in meters. This tool is created specifically for laser measures because you can get precise measurements.
 
 ---
 
@@ -140,5 +118,5 @@ This is the distance between each frame.
 # Execution:
 After setting the values in the config file, run:
 ```
-python3 calculate.py
+cargo run
 ```
